@@ -55,6 +55,7 @@ body {
 
 			display: none;
 		}
+
 		.menu-item1, .menu-item2,
 		.menu-item3, .menu-item4,
 		.menu-item5, .menu-item6 {
@@ -105,19 +106,14 @@ body {
 		.rwd-icon {
 
 			float: left;
-			display: inline-block;
+			display: block;
 			margin-top: 2.2vh;
-			background-color: #cccccc;
-		}
-
-		.rwd-icon a {
-
+			margin-left: 2vw;
 			text-decoration: none;
 			color: #363636;
 			font-size: 30px;
-			float: left;
-
 		}
+
 
 		.main-menu.responsive {
 
@@ -136,6 +132,7 @@ body {
 
 			float: none;
 			display: block;
+			margin-left: -30px;
 			
 		}
 
@@ -147,6 +144,7 @@ body {
 
 			float: none;
 			display: block;
+			margin-left: -30px;
 		
 		}
 
@@ -154,8 +152,8 @@ body {
 
 			display: block;
 			text-align: left;
-			bottom: 10px;
-			margin-top: 50px;
+			bottom: 15px;
+			margin-top: 60px;
 			padding: 5px;
 			
 
@@ -170,8 +168,8 @@ body {
 
 			display: block;
 			text-align: left;
-			bottom: 10px;
-			top: 5px;
+			bottom: 15px;
+			top: 10px;
 			padding: 5px;
 		}
 		
