@@ -8,7 +8,7 @@ html {
 body {
 
 	display: inline-block;
-	margin: 0 0 60px;
+	margin: 0;
 	text-align: center;
 	width: 100%;
 	box-sizing: border-box;
@@ -230,17 +230,132 @@ body {
 			}
 
 
+		/* Grid */
+
+		.grid {
+
+			margin-top: 10vh;
+			display: block;
+		}
+
+		.grid:after {
+
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		.grid [class*="col-"] {
+
+			vertical-align: top;
+			padding-left: 5px;
+			padding-right: 5px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box; /* iOS <= 4 i Android <= 2.3 */
+			-moz-box-sizing: border-box; /* MF */
+			display: block;
+		}
 
 
-			/* Stopka */
+		.col-1-1 {  width: 100%;
+				 	float: none; }
+
+		.col-1-2 {  width: 50%;
+					float: left; }
+
+		.col-1-3 { 	width: 33.33%;
+					float: left; }
+
+		.col-1-4 { 	width: 24%;
+					float: left; }
+
+		.col-1-8 {  width: 12.5%;
+					float: left; }
+
+		.col-2-3 {  width: 66.66%;
+					float: left; }
+
+		.col-3-4 {  width: 75%;
+					float: left; }
+
+
+		[class*="col-push-"] { position: relative; }
+
+		.col-push-1-1 { left: 100%; }
+		.col-push-1-2 { left: 50%; }
+		.col-push-1-3 { left: 33.333333%; }
+		.col-push-1-4 { left: 25%; }
+		.col-push-1-8 { left: 12.5%; }
+		.col-push-2-3 { left: 66.666666%; }
+		.col-push-3-4 { left: 75%; }
+
+		[class*="col-pull-"] { position: relative; }
+
+		.col-pull-1-1 { right: 100%; }
+		.col-pull-1-2 { right: 50%; }
+		.col-pull-1-3 { right: 33.333333%; }
+		.col-pull-1-4 { right: 25%; }
+		.col-pull-1-8 { right: 12.5%; }
+		.col-pull-2-3 { right: 66.666666%; }
+		.col-pull-3-4 { right: 75%; }
+
+			[class*="issue"] img {
+
+				max-width: 90%;
+			
+			}
+
+
+		@media only screen and (min-width: 760px)
+		{
+			.bp-col-1-1 {  width: 100%;
+				 	float: none; }
+
+			.bp-col-1-2 {  width: 50%;
+					float: left; }
+
+			.bp-col-1-3 { 	width: 33.33%;
+					float: left; }
+
+			.bp-col-1-4 { 	width: 24%;
+					float: left; }
+
+			.bp-col-1-8 {  width: 12.5%;
+					float: left; }
+
+			.bp-col-2-3 {  width: 66.66%;
+					float: left; }
+
+			.bp-col-3-4 {  width: 75%;
+					float: left; }
+
+
+			.bp-col-push-1-1 { left: 100%; }
+			.bp-col-push-1-2 { left: 50%; }
+			.bp-col-push-1-3 { left: 33.333333%; }
+			.bp-col-push-1-4 { left: 25%; }
+			.bp-col-push-1-8 { left: 12.5%; }
+			.bp-col-push-2-3 { left: 66.666666%; }
+			.bp-col-push-3-4 { left: 75%; }
+
+			.bp-col-pull-1-1 { right: 100%; }
+			.bp-col-pull-1-2 { right: 50%; }
+			.bp-col-pull-1-3 { right: 33.333333%; }
+			.bp-col-pull-1-4 { right: 25%; }
+			.bp-col-pull-1-8 { right: 12.5%; }
+			.bp-col-pull-2-3 { right: 66.666666%; }
+			.bp-col-pull-3-4 { right: 75%; }
+
+		}
+
+		
+
+
+		/* Stopka */
 
 		#footer {
 
-			height: 60px;
 			width: 100%;
-			position: absolute;
-			left: 0;
-			bottom: 0;
 			display: inline-block;
 			clear: both;
 			overflow: auto;
@@ -258,7 +373,6 @@ body {
 				width: 100%;
 				padding: 0;
 				margin: 0 0 0 8vw;
-				margin:;
 				list-style: none;
 				float: left;
 				display: inline-block;
