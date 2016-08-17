@@ -110,6 +110,7 @@ body {
 			display: none;
 		}
 
+
 		.rwd-icon {
 
 			float: left;
@@ -119,6 +120,8 @@ body {
 			text-decoration: none;
 			color: #363636;
 			font-size: 30px;
+			background-color: #ffffff;
+			border: none;
 		}
 
 
@@ -235,7 +238,6 @@ body {
 
 		.grid {
 
-			margin-top: 10vh;
 			display: block;
 		}
 
@@ -300,11 +302,6 @@ body {
 		.col-pull-2-3 { right: 66.666666%; }
 		.col-pull-3-4 { right: 75%; }
 
-			[class*="issue"] img {
-
-				max-width: 90%;
-			
-			}
 
 
 		@media only screen and (min-width: 760px)
@@ -347,11 +344,31 @@ body {
 			.bp-col-pull-2-3 { right: 66.666666%; }
 			.bp-col-pull-3-4 { right: 75%; }
 
+
+
+			.name {
+
+
+			float: none;
+			text-align: none;
+			font-family: Poiret One, sans-serif;
+			font-weight: 300;
+			font-size: calc(10px + 1.7vw);
+			margin-bottom: 0;
+			clear: both;
+
 		}
 
-		img {
+		}
+
+
+		[class*="col-push-"] .image {
 
 			float: left;
+			clear: both;
+			margin-top: 10vh;
+			background-color: #ffffff;
+			border: none;
 			
 		}
 
@@ -359,10 +376,10 @@ body {
 
 
 			float: left;
-			text-align: justify;
+			text-align: left;
 			font-family: Poiret One, sans-serif;
 			font-weight: 300;
-			font-size: 1.7vw;
+			font-size: calc(10px + 1.7vw);
 			margin-bottom: 0;
 			clear: both;
 
@@ -374,10 +391,11 @@ body {
 			float: left;
 			font-family: Poiret One, sans-serif;
 			font-weight: 200;
-			font-size: 1.5vw;
+			font-size: calc(8px + 1.5vw);
 			margin-top: 0;
 			margin-bottom: 0;
 			clear: both;
+
 		}
 
 		.address {
@@ -385,17 +403,20 @@ body {
 			float: left;
 			font-family: Poiret One, sans-serif;
 			font-weight: 200;
-			font-size: 1.5vw;
+			font-size: calc(8px + 1.5vw);
 			margin-top: 0;
 			clear: both;
 			text-decoration: none;
 			color: #545454;
 			display: inline-block;
+			margin-bottom: 10px;
+			text-align: left;
 
 		}
 
 		.address a {
 			display: inline-block;
+			clear: both;
 
 
 		}
@@ -403,6 +424,26 @@ body {
 		.address:hover {
 
 			color: #B4CED6;
+		}
+
+		#text-MagdaCW, #text-UlaM, #text-KasiaG,
+		#text-DagaG, #text-IdaK, #text-MagdaK,
+		#text-AniaP, #text-Berni, #text-AsiaF,
+		#text-MartaB, #text-AnetaW, #text-MagdaB,
+		#text-IwonaS, #text-Basia, #text-Dominika,
+		#text-GosiaG, #text-AniaM, #text-Agnieszka,
+		#text-Jozefina, #text-AniaZ, #text-AgataN,
+		#text-EwaS
+		 {
+
+			display: none;
+			font-family: Poiret One, sans-serif;
+			font-weight: 300;
+			font-size: calc(6px + 1.2vw);
+			text-align: justify;
+			float: left;
+			clear: both;
+			width: 90%;
 		}
 
 

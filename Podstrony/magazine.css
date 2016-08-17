@@ -229,12 +229,10 @@ body {
 			}
 			}
 
-
-		/* Grid */
+			/* Grid */
 
 		.grid {
 
-			margin-top: 10vh;
 			display: block;
 		}
 
@@ -302,6 +300,7 @@ body {
 			[class*="issue"] img {
 
 				max-width: 90%;
+				margin-top: 10vh;
 			
 			}
 
@@ -348,7 +347,6 @@ body {
 
 		}
 
-		
 
 
 		/* Stopka */
