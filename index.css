@@ -88,7 +88,7 @@ body {
 
 			}
 
-	@media only screen and (max-width: 760px) {
+	@media only screen and (max-width: 1280px) {
 
 		.logo, .site-logo img {
 
@@ -213,7 +213,7 @@ body {
 
 			}
 
-	@media only screen and (max-width: 760px) {
+	@media only screen and (max-width: 1280px) {
 
 			.social-item1 a img, .social-item2 a img,
 			.social-item3 a img {
@@ -234,7 +234,7 @@ body {
 	}
 
 
-		.photo-content img{
+		.photo-content #background{
 
 			width: 100%;
 			margin-right: -5px;
@@ -321,7 +321,7 @@ body {
 			position: relative;
 			float: left;
 			display: inline-block;
-			width: 420px;
+			width: 33%;
 		}
 
 
@@ -396,7 +396,7 @@ body {
 			border-bottom: none;
 			border-right: 1px solid #CCCCCC;
 			display: inline-block;
-			width: 420px;
+			width: 33%;
 		
 		}
 
@@ -459,7 +459,7 @@ body {
 			position: relative;
 			float: left;
 			display: inline-block;
-			width: 400px;
+			width: 33%;
 		}
 
 			.cooperation-column .cooperation-title {
@@ -528,52 +528,16 @@ body {
 
 			border-right: none;
 		}
+	}
+
+	@media only screen and (max-width: 1280px) {
+
+		.content-column {
+
+			width: 80%;
+		}
 	}			
 
-
-
-	@media only screen and (max-width: 400px) {
-
-		.about, .cooperation, .fundation {
-				
-			width: 320px;
-		}
-
-			.about-column .about-title {
-
-				margin-left: 40px;
-			}
-
-			.about-column .about-button {
-
-				margin-left: 50px;
-				margin-top: 20px;
-			}
-
-
-			.fundation-logo img {
-
-				margin-left: 40px;
-			}
-
-			.fundation-text {
-
-				margin-left: 70px;
-			}
-
-			.fundation-text .fundation-button {
-
-				margin-left: 12px;
-				margin-top: 20px;
-			}
-
-			.cooperation-column .cooperation-button {
-
-				margin-left: 60px;
-				margin-top: 20px;
-			}
-
-		}
 
 
 
@@ -647,7 +611,7 @@ body {
 				margin-top: 20px;
 			}
 
-		@media only screen and (max-width: 760px) {
+		@media only screen and (max-width: 1280px) {
 
 			.footer-item1, .footer-item2,
 			.footer-item3, .footer-item4,
