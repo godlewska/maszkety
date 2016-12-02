@@ -95,7 +95,7 @@ body {
 
 			}
 
-	@media only screen and (max-width: 760px) {
+	@media only screen and (max-width: 1260px) {
 
 		.logo, .site-logo img {
 
@@ -220,7 +220,7 @@ body {
 
 			}
 
-	@media only screen and (max-width: 760px) {
+	@media only screen and (max-width: 1260px) {
 
 			.social-item1 a img, .social-item2 a img,
 			.social-item3 a img {
@@ -305,7 +305,7 @@ body {
 			}
 
 
-		@media only screen and (min-width: 760px)
+		@media only screen and (min-width: 1260px)
 		{
 			.bp-col-1-1 {  width: 100%;
 				 	float: none; }
@@ -418,7 +418,7 @@ body {
 				margin-top: 20px;
 			}
 
-		@media only screen and (max-width: 760px) {
+		@media only screen and (max-width: 1260px) {
 
 			.footer-item1, .footer-item2,
 			.footer-item3, .footer-item4,
