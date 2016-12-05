@@ -87,7 +87,7 @@ body {
 
 			}
 
-	@media only screen and (max-width: 760px) {
+	@media only screen and (max-width: 1260px) {
 
 		.logo, .site-logo img {
 
@@ -212,7 +212,7 @@ body {
 
 			}
 
-	@media only screen and (max-width: 760px) {
+	@media only screen and (max-width: 1260px) {
 
 			.social-item1 a img, .social-item2 a img,
 			.social-item3 a img {
@@ -259,7 +259,8 @@ body {
 				width: 60%;
 				text-align: center;
 				margin: auto;
-				line-height: 4vh;
+				line-height: 2vh;
+				
 			}
 
 		.donate-title {
@@ -343,7 +344,7 @@ body {
 				margin-top: 20px;
 			}
 
-		@media only screen and (max-width: 760px) {
+		@media only screen and (max-width: 1260px) {
 
 			.footer-item1, .footer-item2,
 			.footer-item3, .footer-item4,
